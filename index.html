@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RA2011003011389</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BFHL Frontend</h1>
+        <textarea id="jsonInput" placeholder="Enter JSON here" rows="5" cols="50"></textarea>
+        <br />
+        <button id="submitBtn">Submit</button>
+        
+        <div id="responseSection" style="display: none;">
+            <div>
+                <label><input type="checkbox" value="Alphabets"> Alphabets</label>
+                <label><input type="checkbox" value="Numbers"> Numbers</label>
+                <label><input type="checkbox" value="Highest Lowercase Alphabet"> Highest Lowercase Alphabet</label>
+            </div>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
